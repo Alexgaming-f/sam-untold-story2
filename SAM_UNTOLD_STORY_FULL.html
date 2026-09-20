@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SAM — UNTOLD STORY</title>
+<meta name="description" content="SAM — UNTOLD STORY. The game, the private build, the leak, and the disappearance.">
+<style>
+:root{--bg:#030405;--panel:#0a0c0f;--line:#20242a;--muted:#8e959f;--text:#f0f2f4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.75}
+body:after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background:repeating-linear-gradient(0deg,#fff 0,#fff 1px,transparent 1px,transparent 4px)}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:30px;position:relative;overflow:hidden;background:radial-gradient(circle at center,#171b21 0,#080a0d 35%,#030405 72%)}
+.hero:before{content:"";position:absolute;width:65vw;height:65vw;border:1px solid #333;border-radius:50%;opacity:.18}
+.hero-inner{position:relative;z-index:1;max-width:1000px}.tag{font-size:11px;letter-spacing:5px;text-transform:uppercase;color:#858c96}
+h1{font-size:clamp(50px,12vw,150px);line-height:.86;letter-spacing:-7px;margin:25px 0;font-weight:900}
+.hero p{font-size:clamp(16px,2vw,21px);color:#aab0b8;max-width:700px;margin:0 auto 35px}
+.btn{display:inline-block;border:1px solid #555;border-radius:100px;padding:12px 25px;font-size:11px;letter-spacing:3px;text-transform:uppercase}.btn:hover{background:#fff;color:#000}
+section{max-width:1120px;margin:auto;padding:110px 25px}.eyebrow{font-size:10px;letter-spacing:4px;color:#777f89;text-transform:uppercase;margin-bottom:14px}
+h2{font-size:clamp(35px,6vw,72px);line-height:1.02;margin:0 0 25px;letter-spacing:-2px}h3{font-size:24px;margin:5px 0 12px}
+.lead{font-size:20px;color:#b7bdc5;max-width:800px}.story{display:grid;grid-template-columns:1fr 1.45fr;gap:70px}.story p{color:#a6adb6;margin:0 0 20px}
+.quote{font-size:clamp(25px,4vw,45px);line-height:1.2;border-left:2px solid #eee;padding-left:24px;margin:42px 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:40px}.card{background:var(--panel);border:1px solid var(--line);padding:27px;min-height:160px}.card p{color:var(--muted);font-size:14px}
+.timeline{border-left:1px solid #3a3f46;margin:45px 0 0 8px}.event{position:relative;padding:0 0 50px 34px}.event:before{content:"";position:absolute;left:-5px;top:10px;width:9px;height:9px;border-radius:50%;background:#fff}.event small{letter-spacing:3px;color:#737b85;text-transform:uppercase}.event p{color:#969da6;max-width:720px}
+.dark{background:linear-gradient(180deg,var(--bg),#080a0d,var(--bg));max-width:none}.dark>div{max-width:1120px;margin:auto;padding:110px 25px}
+.ending{min-height:100vh;display:grid;place-items:center;text-align:center;border-top:1px solid var(--line)}.ending h2{max-width:950px;margin:auto}.ending p{max-width:750px;margin:30px auto;color:#9ca3ad;font-size:19px}
+.last{font-size:clamp(26px,5vw,60px)!important;color:#eee!important;font-weight:700}
+footer{text-align:center;border-top:1px solid #15181c;padding:35px 20px;color:#606771;font-size:11px;letter-spacing:1px}
+@media(max-width:760px){.story{grid-template-columns:1fr;gap:25px}.cards{grid-template-columns:1fr}.hero h1{letter-spacing:-4px}section,.dark>div{padding:75px 20px}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+<div class="hero-inner">
+<div class="tag">A story published by Alex</div>
+<h1>SAM<br>UNTOLD STORY</h1>
+<p>The game. The private build. The leak. The story behind what happened next.</p>
+<a class="btn" href="#begin">Enter the story</a>
+</div>
+</header>
+
+<section id="begin"><div class="story">
+<div><div class="eyebrow">01 — The Rule</div><h2>Nobody sees the full game until it's ready.</h2><p class="lead">Not because Sam was hiding the project. Because he wanted the first experience to belong to the players.</p></div>
+<div><p>The game was still changing every week. Controls were being tuned. Graphics were being replaced. AI behaviour was being tested.</p><p>Some areas existed only as temporary development scenes.</p><p>The final version was nowhere near finished.</p><div class="quote">“The first experience should belong to the players.”</div></div>
+</div></section>
+
+<section><div class="eyebrow">02 — The Game</div><h2>Adaptive by design.</h2><p class="lead">The world watched how the player behaved and used that information to change the experience.</p>
+<div class="cards">
+<div class="card"><h3>Player Behaviour</h3><p>Aggressive and careful players could encounter different challenges and opportunities.</p></div>
+<div class="card"><h3>Adaptive AI</h3><p>Enemy behaviour could change according to the player's actions.</p></div>
+<div class="card"><h3>Dynamic Difficulty</h3><p>The experience could adjust as the player progressed.</p></div>
+<div class="card"><h3>Reactive Rewards</h3><p>Rewards could respond to decisions made throughout the game.</p></div>
+<div class="card"><h3>Connected Systems</h3><p>The systems were designed to work together instead of existing as isolated features.</p></div>
+<div class="card"><h3>Still Evolving</h3><p>The project remained in development, with mechanics and visuals changing every week.</p></div>
+</div></section>
+
+<section><div class="eyebrow">03 — The Private Demo</div><div class="story">
+<div><h2>Someone finally understood.</h2><p class="lead">An investor named Victor contacted Sam after seeing early footage.</p></div>
+<div><p>They arranged a private presentation. Sam prepared a special development build.</p><p>It wasn't the public release. It didn't contain everything. But it showed enough to communicate the idea.</p><p>Sam demonstrated the environment, controls, AI and adaptive difficulty. He explained what was temporary and what he planned to improve.</p><p>The meeting lasted longer than expected. When it ended, Sam felt relieved.</p></div>
+</div></section>
+
+<section><div class="eyebrow">04 — Three Days Later</div><div class="story">
+<div><h2>The first sign wasn't a video.</h2><div class="quote">It was a screenshot.</div></div>
+<div><p>Someone posted an image of a game environment online.</p><p>Sam noticed it because the scene looked familiar. Very familiar.</p><p>It wasn't identical to the final environment. The lighting was different. Some assets had already been replaced. But the layout was unmistakable.</p><p>Then another image appeared. This one showed part of the control interface — an interface that had never been publicly shown.</p></div>
+</div></section>
+
+<section><div class="eyebrow">05 — Then Came the Video</div><div class="story">
+<div><h2>Private information became public content.</h2><p class="lead">AI-generated voice-over. Cinematic shots. Fast editing. Concept art mixed with gameplay-style footage.</p></div>
+<div><p>The video described features Sam recognized immediately. Some were already public. Others were still unreleased.</p><p>One sequence even showed a control layout from the private build.</p><p>Sam watched the entire thing without saying anything. Then he opened the original project.</p><div class="quote">For the first time, the possibility became real.</div><p>Someone had taken information from the private demonstration and turned it into public content.</p></div>
+</div></section>
+
+<section><div class="eyebrow">06 — It Wasn't the Whole Game</div><h2>But enough had escaped.</h2><p class="lead">The complete game hadn't been released. The source project hadn't appeared online. But enough information had escaped to create a serious problem.</p>
+<div class="cards"><div class="card"><h3>Unreleased Mechanics</h3><p>People could now see parts of systems that were still being developed.</p></div><div class="card"><h3>Development Footage</h3><p>Material from unfinished versions was circulating.</p></div><div class="card"><h3>Confusion</h3><p>The polished AI video made concepts and unfinished features look final.</p></div></div></section>
+
+<section><div class="eyebrow">07 — The Timeline</div><h2>What happened next.</h2>
+<div class="timeline">
+<div class="event"><small>Before</small><h3>A year of development</h3><p>Sam built and tested an adaptive game while keeping the full experience private.</p></div>
+<div class="event"><small>Day 0</small><h3>Private presentation</h3><p>A special development build was shown to investor Victor.</p></div>
+<div class="event"><small>Day 3</small><h3>The first screenshot</h3><p>An image resembling an older development environment appeared online.</p></div>
+<div class="event"><small>Later</small><h3>The video</h3><p>A polished AI-generated video appeared, containing material resembling the private build.</p></div>
+<div class="event"><small>After</small><h3>The security review</h3><p>Sam documented files, dates, builds and what had been public before and after the leak.</p></div>
+<div class="event"><small>Next</small><h3>The next build</h3><p>Access was tightened, the launch plan changed, and development continued.</p></div>
+</div></section>
+
+<section><div class="eyebrow">08 — Security Review</div><div class="story">
+<div><h2>The weakest part wasn't necessarily the code.</h2><p class="lead">It was trust.</p></div>
+<div><p>Sam stopped using the same development build for demonstrations.</p><p>Private material was separated from presentation material. Access to unfinished assets was reduced. Old shared builds were reviewed.</p><p>He had assumed that showing someone the project meant showing them the project temporarily. He hadn't considered how quickly information from a private demonstration could become public.</p></div>
+</div></section>
+
+<section><div class="eyebrow">09 — Victor</div><div class="story">
+<div><h2>Questions without easy answers.</h2><p class="lead">Sam didn't immediately call Victor a thief. He didn't know everything that had happened behind the scenes.</p></div>
+<div><p>All Sam knew was that Victor had been present during the private demonstration and that material resembling the private build had appeared afterward.</p><p>Who had recorded what? How had the information spread? Which parts had been recreated? Which parts had actually come from the private build?</p><p>Sam didn't have every answer.</p></div>
+</div></section>
+
+<section><div class="eyebrow">10 — The Launch</div><h2>The moment was partially taken away.</h2><p class="lead">Sam's original launch plan had to change. The trailer no longer made sense. The reveal sequence had been partially spoiled.</p><div class="quote">Not the views. Not the numbers. The moment.</div><p class="lead">For months, Sam had imagined the exact moment when players would discover his world. Now that moment had already been partially taken from him.</p></section>
+
+<section class="dark"><div><div class="eyebrow">11 — The Night After Everything</div><div class="story">
+<div><h2>Just the game.</h2><p>The game loaded. The same environment appeared. The same character stood in the same place.</p></div>
+<div><p>For a moment, nothing else existed.</p><div class="quote">Just the game. His game.</div><p>It wasn't perfect. It wasn't finished. But it was real.</p><p>Someone could reveal a mechanic. Someone could reproduce a visual. Someone could generate a trailer.</p><p>But nobody could recreate the months Sam had spent becoming the person capable of building it.</p></div>
+</div></div></section>
+
+<section><div class="eyebrow">12 — The Next Build</div><h2>The story wasn't over.</h2><p class="lead">The next morning, Sam created a new build. He changed the launch plan. He tightened access. Then he went back to work.</p><p class="lead" style="margin-top:25px">Not because the leak hadn't hurt. It had. But because stopping would mean allowing the leak to become the ending of his story.</p></section>
+
+<section><div class="eyebrow">13 — Then Something Changed</div><div class="story">
+<div><h2>The project became silent.</h2></div>
+<div><p>Weeks passed. Then months.</p><p>Sam stopped posting development updates. The accounts that once showed small pieces of his work became inactive. Messages went unanswered.</p><p>At first, people assumed he was simply working in private.</p><p>Maybe he was rebuilding. Maybe he was preparing a new version. Maybe he was planning a surprise.</p><p>Until Alex realized something:</p><div class="quote">Nobody had heard from Sam for a long time.</div></div>
+</div></section>
+
+<section><div class="eyebrow">14 — The Empty Desk</div><div class="story">
+<div><h2>There was no final announcement.</h2></div>
+<div><p>Alex eventually visited the place where Sam used to work.</p><p>The screen was gone. The development setup was gone. The room was quiet.</p><p>There were no new screenshots. No new builds. No announcement. No launch date.</p><p>Alex searched through the old material again and found the last development build Sam had worked on before disappearing from public view.</p><p>He opened it.</p><div class="quote">BUILD COMPLETE.</div><p>It wasn't a final release. It wasn't a launch. It was simply the last build Sam had left behind.</p></div>
+</div></section>
+
+<section><div class="eyebrow">15 — Sam</div><h2>Then he disappeared.</h2><p class="lead">People online continued talking about the leaked video. Some remembered the game. Some forgot it. Some assumed the project had been cancelled.</p><p class="lead" style="margin-top:25px">But nobody knew exactly where Sam had gone.</p><p class="lead" style="margin-top:25px">There was no final announcement. No goodbye post. No explanation.</p><div class="quote">Just silence.</div></section>
+
+<section><div class="eyebrow">16 — The Last Message</div><div class="story">
+<div><h2>“I just wanted to build something people could experience for themselves.”</h2></div>
+<div><p>Months later, Alex found an old message from Sam.</p><p>It wasn't a dramatic statement. It wasn't an explanation.</p><p>It was only a few words.</p><p>Alex read it several times.</p><p>Maybe the leak hadn't destroyed the game.</p><p>Maybe it had destroyed something else.</p><p>The excitement. The trust. The connection between Sam and the people watching him build.</p><p>And somewhere along the way, Sam had simply stopped being able to carry it.</p></div>
+</div></section>
+
+<section class="dark"><div><div class="eyebrow">17 — Broken</div><h2>Sam was broken by what happened.</h2><p class="lead">Not because somebody revealed a screenshot.</p><p class="lead" style="margin-top:20px">Not because a video received millions of views.</p><p class="lead" style="margin-top:20px">But because something he had protected for so long had been taken out of his hands.</p><p class="lead" style="margin-top:20px">The game was supposed to be his story.</p><p class="lead" style="margin-top:20px">Instead, the internet turned part of it into its own story.</p><p class="lead" style="margin-top:20px">And eventually, Sam disappeared from it.</p></div></section>
+
+<section class="ending"><div>
+<div class="eyebrow">Epilogue</div>
+<h2>The internet remembers the video.<br>Alex remembers what came before it.</h2>
+<p>A young developer. A private build. A year of work. A game that wasn't ready to be seen. A moment that was supposed to belong to the players.</p>
+<p>And then a leak.</p>
+<p>The launch changed. The project changed. Sam changed.</p>
+<p class="last">And then Sam disappeared.</p>
+<p>The game still exists. The files still exist. The old development build still exists. The story still exists.</p>
+<p>But the person who built it is gone from the public world.</p>
+<p>Nobody knows if he'll ever come back.</p>
+<div class="quote">The game never learned that Sam was gone. It simply waits for the next input.</div>
+<p class="last">START GAME &nbsp;&nbsp; CONTINUE &nbsp;&nbsp; EXIT</p>
+<p>Nobody knows which option Sam chose.</p>
+<p>And somewhere, perhaps, another screen is still glowing.</p>
+<p>Perhaps Sam is still building.</p>
+<p>Perhaps he isn't.</p>
+<p>Perhaps the story ended there.</p>
+<p class="last">Or perhaps... Sam is still writing the next build.</p>
+</div></section>
+
+<footer>
+<strong>SAM — UNTOLD STORY</strong><br><br>
+Creator: Sam · Story Publisher: Alex · Fictional AI-Adaptive Game · Unreleased / Unknown
+</footer>
+</body>
+</html>
